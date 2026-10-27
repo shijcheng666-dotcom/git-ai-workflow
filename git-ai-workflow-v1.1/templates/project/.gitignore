@@ -1,0 +1,30 @@
+# Starter only. Merge with the existing ignore file; review actual files first.
+# Ignoring files does not remove tracked files or erase Git history.
+
+# Regenerable temporary work
+/tmp/
+
+# Local secrets; review custom credential locations separately
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Common local OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Enable project-specific patterns only after reviewing their contents.
+# /node_modules/
+# /dist/
+# /build/
+# /.venv/
+# __pycache__/
+# *.pyc
+# /coverage/
+
+# Add exact approved patterns for sensitive materials and personal tool caches.
+# Do not blanket-ignore materials/, knowledge/, releases/, or Agent rule folders.
+# Keep source assets and dependency lockfiles unless there is a clear exception.
